@@ -138,13 +138,13 @@ const imageChange3 = () => {
   console.log("Image changed");
 };
 
-// document.addEventListener(
-//   "contextmenu",
-//   function (e) {
-//     e.preventDefault();
-//   },
-//   false
-// );
+document.addEventListener(
+  "contextmenu",
+  function (e) {
+    e.preventDefault();
+  },
+  false
+);
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3.5,
