@@ -878,7 +878,7 @@ body {
 }
 
 .page7 {
-    min-height: 50vh;
+    min-height: 10vh;
     width: 100%;
     padding: 30px 35px;
     display: flex;
@@ -890,10 +890,10 @@ body {
 .page7 .swiper {
   width: 100%;
   min-height: 70%;
+  padding: 3vw 0px;
 }
 
 .swiper-slide {
-  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -901,9 +901,8 @@ body {
   font-family: button;
   border-left: 1px solid rgba(0, 0, 0, 0.312);
   padding-left: 20px;
-  padding-right: 4vw;
   text-align: left;
-  margin-left: 50px;
+  margin-left: 5vw;
 }
 
 .swiper-slide img {
@@ -915,7 +914,7 @@ body {
 }
 
 .swiper-slide p{
-    font-size: 1.2vw;
+    font-size: 1.3vw;
 }
 
 .loader {
