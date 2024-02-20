@@ -516,7 +516,7 @@ body {
 }
 
 .page5 {
-  min-height: 272vh;
+  min-height: 27vh;
   width: 100%;
   padding: 30px 35px;
   display: flex;
@@ -529,6 +529,7 @@ body {
 .page5-div {
   min-height: 10vh;
   width: 49%;
+  margin: 2vw 0px;
 }
 
 .page5-div img {
@@ -569,18 +570,18 @@ body {
 
 @media screen and (max-width: 800px) {
   .page5 {
-    min-height: 225vh;
+    min-height: 25vh;
   }
 
   .page5-div {
-    height: 70vh;
+    min-height: 10vh;
     width: 49%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .page5 {
-    min-height: 425vh;
+    min-height: 45vh;
     width: 100%;
     padding: 30px 35px;
     display: flex;
@@ -590,7 +591,7 @@ body {
   }
 
   .page5-div {
-    height: 70vh;
+    min-height: 10vh;
     width: 100%;
   }
 
