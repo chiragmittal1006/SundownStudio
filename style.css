@@ -140,7 +140,7 @@ body {
   }
 
   .page1-center-left {
-    width: 370px;
+    width: 100%;
     font-size: 1.6rem;
     line-height: 1.7rem;
     font-weight: 300;
@@ -527,13 +527,13 @@ body {
 }
 
 .page5-div {
-  height: 90vh;
+  min-height: 10vh;
   width: 49%;
 }
 
 .page5-div img {
-  height: 80%;
   width: 100%;
+  aspect-ratio: 1;
   object-fit: cover;
   border-radius: 15px;
 }
